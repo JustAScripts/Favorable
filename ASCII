@@ -10,5 +10,5 @@
  ░   ░     ░           ░                    ░  ░         ░  ░ ░         ░      ░                    
                                                             ░                                       
 
-local A, S, C, I, I, C, O, O, L = this, Just, A, Testing, ASCII, Because, It, Look, Cool
+local A, S, C, I, I, C, O, O, L = "this", "Just", "A", "Testing", "ASCII", "Because", "It", "Look", "Cool"
 print(A, S, C, I, I, C, O, O, L)
