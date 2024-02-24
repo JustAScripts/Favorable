@@ -1,0 +1,66 @@
+how to make it work?
+
+Step By Step
+
+first Get the Group requirements ID
+Example :
+
+https://www.roblox.com/groups/2782840/Chillz-Studios#!/about
+                              ^^^^^^^^
+                             see this ID > 2782840
+                         Copy it and Paste it
+                      in first column of Gui
+                   there's indicates Group ID 
+               paste it there 
+            after pasting it 
+         paste the code
+      below the first column
+   it also indicates there
+ UGC code After pasting it
+ Click the Redeem button
+   Below the Second colum
+     it has Title redeem:)
+       and U got it.
+
+          i added Some new Notification
+            as error and successful indicator
+              if ur code is Max Usage there's
+                 black Text gonna appear below
+                   that is the response
+                      if the code failed 
+                        it gonna response
+                          successful : False
+                            and whatever error response
+                              is it likely code is max usage
+                                or u spam it
+                                  also if the Redeem button
+                                    turn into Red when u click
+                                      it Means The code Is Invalid
+                                        or u didn't put the group id
+                                          or just check in Console by
+                                            typing /Console in chat
+                                              or some executor have their
+                                                own console and the error
+                                                  output there.
+
+                                                    also when u execute the script
+                                                     there's output in console teach u 
+                                                       how to make it work but this read me
+                                                         is complete.
+
+                                                           now time for those original Owner Ideas.
+                                                             the idea come from Feliz from DeathSniper
+                                                               and i modified it with new code and gui
+                                                                  if u want to use the original her
+                     loadstring(game:HttpGet(("https://raw.githubusercontent.com/TrueStrikes/redblue/main/cacc.lua")))()
+                                                                     copy the line 55 and that's all i can
+                                                                       say also idk why i made this indent like this
+                                                                        just don't mind it 
+                                                                
+                                                      
+                                             
+
+  
+
+
+                      
