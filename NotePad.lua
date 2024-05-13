@@ -1,12 +1,12 @@
-local sg = Instance.new("ScreenGui")
-local tg = Instance.new("ScreenGui")
-local fr = Instance.new("Frame")
-local tb = Instance.new("TextBox")
-local t = Instance.new("TextLabel")
-local k = Instance.new("TextLabel")
-local m = Instance.new("TextLabel")
-local h = Instance.new("TextLabel")
-local sc = Instance.new("ScrollingFrame")
+sg = Instance.new("ScreenGui")
+tg = Instance.new("ScreenGui")
+fr = Instance.new("Frame")
+tb = Instance.new("TextBox")
+t = Instance.new("TextLabel")
+k = Instance.new("TextLabel")
+m = Instance.new("TextLabel")
+h = Instance.new("TextLabel")
+sc = Instance.new("ScrollingFrame")
 
 client = game:GetService("Players").LocalPlayer
 clip = setclipboard or toclipboard
@@ -63,9 +63,9 @@ t.Text = "</>"
 t.Font = Enum.Font.SourceSans
 t.TextSize = 13
 t.Parent = b
-local f
-local cl
-local e
+f
+cl
+e
 b.MouseButton1Click:Connect(function()
     v = not v
     fr.Visible = v
@@ -84,7 +84,7 @@ local function p()
     clip(tb.Text)
 end
 b.MouseButton1Click:Connect(p)
-local j = Instance.new("ScreenGui")
+j = Instance.new("ScreenGui")
 j.Name = "j"
 j.Parent = client.PlayerGui
 f = Instance.new("TextButton")
@@ -93,7 +93,7 @@ f.Position = UDim2.new(0, 184, 0, -19)
 f.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 f.BorderSizePixel = 0
 f.Parent = j
-local g = Instance.new("UICorner")
+g = Instance.new("UICorner")
 g.CornerRadius = UDim.new(0,8)
 g.Parent = f
 h.Text = "Setclipboard"
@@ -108,7 +108,7 @@ cl.Position = UDim2.new(0, 300, 0, -19)
 cl.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 cl.BorderSizePixel = 0
 cl.Parent = j
-local i = Instance.new("UICorner")
+i = Instance.new("UICorner")
 i.CornerRadius = UDim.new(0,8)
 i.Parent = cl
 k.Text = "Clear Text"
@@ -117,7 +117,7 @@ k.Position = UDim2.new(0, 0, 0, 0)
 k.TextColor3 = Color3.new(1, 1, 1)
 k.BackgroundTransparency = 1
 k.Parent = cl
-local function q()
+function q()
     tb.Text = "" 
 end
 cl.MouseButton1Click:Connect(q)
@@ -128,7 +128,7 @@ e.Position = UDim2.new(0, 414, 0, -19)
 e.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 e.BorderSizePixel = 0
 e.Parent = j
-local l = Instance.new("UICorner")
+l = Instance.new("UICorner")
 l.CornerRadius = UDim.new(0,8)
 l.Parent = e
 m.Text = "Execute"
@@ -138,7 +138,7 @@ m.TextColor3 = Color3.new(1, 1, 1)
 m.BackgroundTransparency = 1
 m.Parent = e
 
-local function n()
+function n()
     local success, errorMsg = pcall(function()
         loadstring(tb.Text)()
     end)
