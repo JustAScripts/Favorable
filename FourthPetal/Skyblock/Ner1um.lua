@@ -2,6 +2,12 @@ local Libr = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodbal
 local Wind = Libr:NewWindow("SkyBlock Legacy's [Beta]")
 local Kill = Wind:NewSection("Automate")
 
+pcall(function()
+    spawn(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAScripts/Gui/main/Addon/notifier"))()
+    end)
+end)
+
 local UserID = game:GetService("Players").LocalPlayer.UserId
 local clip = setclipboard or toclipboard 
 
